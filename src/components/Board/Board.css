@@ -1,0 +1,56 @@
+.board { 
+    padding: 8px;
+    flex: 1;
+}
+
+.board .wrapper {
+    background-color: #eee;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding: 16px;
+}
+
+.board .wrapper h3 {
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.board .wrapper ul.board-tasks {
+    flex: 1;
+    list-style-type: none;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+/* TODO: btn class to hold shared styles & split btn types */
+.board .wrapper .btn {
+    border: none;
+    color: #404040;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.board .wrapper .btn:hover {
+    background-color: #dcdcdc;
+    color: black;
+}
+
+.board .wrapper .btn-add {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.board .wrapper .btn-add:hover {
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+}
